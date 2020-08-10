@@ -1,0 +1,1268 @@
+* {
+  max-width: 880px;
+}
+html {
+  font-size: 62.5%;
+  margin: 0 auto;
+  box-shadow: 0 4px 2px 0.2px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: 1;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-width: 880px;
+  border: 0.8rem black solid;
+}
+
+.headerImg {
+  text-shadow: 0.7px 0.7px 1px #fff, -0.7px -0.7px 1px #000, 2px 2px 10px #fff;
+  color: #00ffffeb;
+  box-shadow: inset -1px -2px 10px black, inset 1px 2px 10px white;
+  background: linear-gradient(145deg, #10ffff, #0ed8e6);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerImg img {
+  max-width: 100%;
+  width: 300px;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 115px;
+  background: linear-gradient(145deg, #10ffff, #0ed8e6);
+  box-shadow: 10px 10px 10px #0bb4bf, -10px -10px 10px #13ffff;
+}
+.navSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav {
+  width: auto;
+  border: solid #0ff 1rem;
+  border-radius: 5px;
+  box-shadow: 0.12px 0.24px 4px black, -0.12px -0.24px 4px white;
+  top: 0.9rem;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a:hover {
+  text-shadow: 0.7px 0.7px 1px #fff, -0.7px -0.7px 1px #000, 2px 2px 10px #fff;
+  box-shadow: inset 0 0 4px 1px #000, inset 0 6px 7px 0 #008b8b;
+}
+
+nav a:active {
+  text-shadow: 0.7px 0.7px 1px #fff, -0.7px -0.7px 1px #000, 2px 2px 10px #fff;
+  box-shadow: inset 0 0 4px 1px #000, inset 0 6px 7px 0 #008b8b;
+}
+nav a {
+  font-size: 4rem;
+  padding: 1rem;
+  text-shadow: 0.5px 0.5px 1.1px #000, -0.9px -0.9px 1.1px #f9f9f9;
+  color: #0ff999;
+  background: #00ff7f;
+  transition: text-shadow 125ms ease;
+  border-radius: 5px;
+  box-shadow: 0.12px 0.24px 4px black, -0.12px -0.24px 4px white;
+}
+nav a:hover {
+  text-shadow: 0.7px 0.7px 1px #fff, -0.7px -0.7px 1px #000, 2px 2px 10px #fff;
+  box-shadow: inset 0 0 4px 1px #000, inset 0 6px 7px 0 #008b8b;
+}
+section#skills {
+  width: 100%;
+  /* border-bottom: #0ff 2rem solid; */
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 30%;
+  padding: 2rem;
+  font-variant: unicase;
+  text-shadow: -0.5px -0.5px 1.1px #000, 0.9px 0.9px 1.1px #f9f9f9;
+}
+
+h2 {
+  font-size: 3rem;
+  box-sizing: border-box;
+}
+<<<<<<< Codesandbox
+<<<<<<< Codesandbox
+<<<<<<< Codesandbox
+
+#skills > p {
+  color: darkturquoise;
+}
+
+main {
+  display: block;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+=======
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+>>>>>>> GitHub
+  display: block;
+}
+<<<<<<< Codesandbox
+
+#about h2 {
+  font-size: 3rem;
+  font-variant: unicase;
+  padding-left: 30px;
+  text-shadow: 1.12px 1.48px 4px #714505, -1.12px -2.48px 4px #f1d196;
+  color: darkorange;
+  box-shadow: inset -222px 222px 220px 218px #FF9800;
+  font-size: 10rem;
+=======
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  font-size: 62.5%;
+  margin: 0 auto;
+  box-shadow: 0 4px 2px 0.2px;
+}
+* {
+  max-width: 880px;
+}
+
+body {
+  margin: 0;
+  line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-width: 880px;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+>>>>>>> GitHub
+  quotes: none;
+}
+<<<<<<< Codesandbox
+
+.introduction {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 2rem;
+  text-shadow: -0.5px -0.5px 1.1px #000, 0.9px 0.9px 1.1px #f9f9f9;
+  font-variant: titling-caps;
+=======
+html {
+  font-size: 62.5%;
+  margin: 0 auto;
+  box-shadow: 0 4px 2px 0.2px;
+}
+* {
+  max-width: 880px;
+=======
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+>>>>>>> GitHub
+  top: 5rem;
+}
+<<<<<<< Codesandbox
+
+body {
+  margin: 0;
+  line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  max-width: 880px;
+=======
+nav a {
+  font-size: 4rem;
+  color: #fffff9;
+  background: springgreen;
+  text-shadow: 0px 3px 1px black;
+  box-shadow: 0px 4px 6px 0px black;
+  padding: 1rem;
+}
+#about {
+  display: flex;
+  border: 2rem solid black;
+>>>>>>> GitHub
+>>>>>>> GitHub
+}
+<<<<<<< Codesandbox
+<<<<<<< Codesandbox
+=======
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+=======
+
+introduction {
+  padding: 2rem;
+}
+
+.headerImg {
+  width: 35%;
+  border: solid orange;
+}
+
+img {
+  max-width: -webkit-fill-available;
+  width: 100%;
+  border-bottom: aqua 1rem solid;
+  box-shadow: 0 4px 6px 0;
+>>>>>>> GitHub
+}
+<<<<<<< Codesandbox
+html {
+  font-size: 62.5%;
+  margin: 0 auto;
+  box-shadow: 0 4px 2px 0.2px;
+}
+* {
+  max-width: 880px;
+}
+
+body {
+  margin: 0;
+  line-height: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+=======
+
+section#skills {
+  width: 100%;
+  border-bottom: aqua 2rem solid;
+  font-size: 3rem;
+  font-weight: 600;
+  text-shadow: 0px 3px 1px #8da0c1;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+main {
+  display: block;
+}
+
+div#navspacing {
+  height: 12rem;
+  border: 1rem solid blue;
+>>>>>>> GitHub
+  max-width: 880px;
+}
+<<<<<<< Codesandbox
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+=======
+
+section#projects {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+>>>>>>> GitHub
+  quotes: none;
+}
+<<<<<<< Codesandbox
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+  top: 5rem;
+}
+nav a {
+  font-size: 4rem;
+  color: #fffff9;
+  background: springgreen;
+  text-shadow: 0px 3px 1px black;
+  box-shadow: 0px 4px 6px 0px black;
+=======
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  /* height: -webkit-fill-available; */
+  border: 0.5rem #0ff999 groove;
+  border-radius: 1%;
+  background: #0ff;
+  color: #00ffffeb;
+  text-shadow: 1px 1px 0.1px #000, -1px -1px 0.1px white;
+  flex-direction: column;
+  font-weight: bold;
+  max-width: 64%;
+  max-height: 550px;
+  height: auto;
+}
+
+.card img {
+  border-bottom: white 0.8rem groove;
+  border-radius: 5px;
+  box-shadow: none;
+  text-align: center;
+  width: -webkit-fill-available;
+  height: 400px;
+>>>>>>> GitHub
+  padding: 1rem;
+}
+<<<<<<< Codesandbox
+#about {
+  display: flex;
+  border: 2rem solid black;
+>>>>>>> GitHub
+}
+
+<<<<<<< Codesandbox
+.introduction > p {
+  margin: 1rem;
+  padding: 0.1rem;
+  line-height: 1.5;
+  border-bottom: aqua 1rem solid;
+=======
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+>>>>>>> GitHub
+  quotes: none;
+=======
+introduction {
+  padding: 2rem;
+}
+
+.headerImg {
+  width: 35%;
+  border: solid orange;
+}
+
+img {
+  max-width: -webkit-fill-available;
+  width: 100%;
+  border-bottom: aqua 1rem solid;
+  box-shadow: 0 4px 6px 0;
+>>>>>>> GitHub
+}
+<<<<<<< Codesandbox
+<<<<<<< Codesandbox
+=======
+
+.card h3 {
+  font-size: 5rem;
+  border-bottom: 0.5rem groove #0ff999;
+  padding: 0.5rem;
+  margin: 0;
+  text-align: center;
+  box-shadow: 0 0 black;
+}
+
+.projectInfoBlock {
+  text-align: center;
+  height: 5rem;
+  display: flex;
+}
+
+.projectInfoBlock a {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  text-decoration: none;
+  width: -webkit-fill-available;
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  color: antiquewhite;
+  text-shadow: 2px 0px 0.1px black;
+}
+.projectInfoBlock a:first-child {
+  border-right: #0ff999 solid 1.5px;
+  box-shadow: 0.1px 0.2px 2px 1.1px #023;
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 1.1px #000, -0.9px -0.9px 1.1px #f9f9f9;
+  color: #0ff;
+}
+
+.projectInfoBlock a:first-child:hover {
+  text-shadow: 0.7px 0.7px 1px white, -0.7px -0.7px 1px black,
+    2px 2px 10px white;
+  box-shadow: inset 0px 0px 4px 1px black, inset 0px 6px 7px 0px darkcyan;
+}
+>>>>>>> GitHub
+
+<<<<<<< Codesandbox
+=======
+
+section#skills {
+>>>>>>> GitHub
+section#projects {
+  width: 100%;
+<<<<<<< Codesandbox
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  box-shadow: inset 0px 2px 10px black;
+  padding-top: 2rem;
+=======
+  border-bottom: aqua 2rem solid;
+  font-size: 3rem;
+  font-weight: 600;
+  text-shadow: 0px 3px 1px #8da0c1;
+  margin: 1rem;
+>>>>>>> GitHub
+=======
+.projectInfoBlock a:nth-child(2) {
+  border-left: #09a565 solid 3px;
+  color: #0ff;
+  box-shadow: inset 0px 0px 7px 0px black, 0.1px 0.2px 2px 1.1px #023;
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 1.1px #000, -0.9px -0.9px 1.1px #f9f9f9;
+}
+.projectInfoBlock a:nth-child(2):hover {
+  text-shadow: 0.7px 0.7px 1px white, -0.7px -0.7px 1px black,
+    2px 2px 10px white;
+  box-shadow: inset 0px 0px 4px 1px black, inset 0px 6px 7px 0px darkcyan;
+}
+
+#contact form input {
+  width: 40%;
+  margin: 1rem;
+  border: solid rebeccapurple 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 black;
+>>>>>>> GitHub
+  padding: 2rem;
+}
+<<<<<<< Codesandbox
+
+<<<<<<< Codesandbox
+.card {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  border: .5rem #0ff999 groove;
+  border-radius: 1%;
+  background: #0ff;
+  color: #00ffffeb;
+  text-shadow: 1px 1px 0.1px #000, -1px -1px 0.1px #fff;
+  flex-direction: column;
+  font-weight: 700;
+  max-width: 64%;
+  max-height: 550px;
+  height: auto;
+  margin: 1rem 0;
+=======
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+  top: 5rem;
+}
+nav a {
+  font-size: 4rem;
+  color: #fffff9;
+  background: springgreen;
+  text-shadow: 0px 3px 1px black;
+  box-shadow: 0px 4px 6px 0px black;
+>>>>>>> GitHub
+  padding: 1rem;
+}
+<<<<<<< Codesandbox
+.card img {
+  border-bottom: #fff .8rem groove;
+  border-radius: 5px;
+  box-shadow: none;
+  text-align: center;
+  width: -webkit-fill-available;
+  height: 400px;
+=======
+#about {
+=======
+main {
+  display: block;
+}
+
+div#navspacing {
+  height: 12rem;
+=======
+#contact form textarea {
+  width: 80vw;
+  max-width: 600px;
+  margin: 1rem;
+  border: solid rebeccapurple 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 black;
+}
+#contact form {
+  display: flex;
+  width: 100%;
+  color: whitesmoke;
+  background: repeating-radial-gradient(
+    circle at 4.2% 9%,
+    red,
+    orange 16.18px,
+    yellow 26.179px,
+    limegreen 42.359px,
+    royalblue 71.162px,
+    indigo 115.141px,
+    violet 186.299px,
+    red 301.432px
+  );
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  border: solid rebeccapurple 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 black;
+  text-shadow: 0 3px 1px hsl(275, 100%, 22%);
+  color: hsl(275, 100%, 92%);
+}
+button {
+  border-radius: 3px;
+  box-shadow: 3px 2px 2px 0px black;
+  color: purple;
+  background: white;
+  text-shadow: 0.5px 0.5px 0px black, 1.75px 1.75px 1px white,
+    2px 3px 1px purple;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: purple;
+  color: white;
+  box-shadow: 0px 4px 2px 0.1px black;
+  text-shadow: 1px 3px 0px black;
+  font-size: 3rem;
+}
+button:active {
+  background: rebeccapurple;
+  color: black;
+  box-shadow: 1px 1px 1px 1px black;
+  text-shadow: 0px 3px 0px white;
+  font-size: 3rem;
+}
+button:active {
+  background: rebeccapurple;
+  color: white;
+  box-shadow: 0px 4px 2px 0.1px black;
+  text-shadow: -1.5px -2px 0px black, 1px 2px 4px black;
+  font-size: 3rem;
+>>>>>>> GitHub
+  border: 1rem solid blue;
+}
+
+<<<<<<< Codesandbox
+section#projects {
+=======
+.submit-captchaBox {
+>>>>>>> GitHub
+  width: 100%;
+  display: flex;
+<<<<<<< Codesandbox
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  /* height: -webkit-fill-available; */
+  border: 0.5rem #0ff999 groove;
+  border-radius: 1%;
+  background: #0ff;
+  color: #00ffffeb;
+  text-shadow: 1px 1px 0.1px #000, -1px -1px 0.1px white;
+  flex-direction: column;
+  font-weight: bold;
+  max-width: 64%;
+  max-height: 550px;
+=======
+}
+.inputToggleBox {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  margin: 5rem;
+  border: 0.1rem outset purple;
+  border-radius: 15px;
+}
+.inputToggle {
+  display: block;
+  width: 300px;
+  height: 100px;
+  padding: 1rem;
+  margin: 5rem;
+  border: 1rem outset purple;
+  border-radius: 15px;
+>>>>>>> GitHub
+  height: auto;
+}
+<<<<<<< Codesandbox
+
+.card img {
+  border-bottom: white 0.8rem groove;
+  border-radius: 5px;
+  box-shadow: none;
+  text-align: center;
+  width: -webkit-fill-available;
+  height: 400px;
+=======
+.inputToggle--knob {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 3px solid pink;
+  border-radius: 50px;
+  position: relative;
+  left: 70%;
+>>>>>>> GitHub
+}
+
+.card h3 {
+  font-size: 5rem;
+  border-bottom: 0.5rem groove #0ff999;
+  padding: 0.5rem;
+  margin: 0;
+  text-align: center;
+  box-shadow: 0 0 black;
+}
+
+.projectInfoBlock {
+  text-align: center;
+  height: 5rem;
+>>>>>>> GitHub
+  display: flex;
+<<<<<<< Codesandbox
+  border: 2rem solid black;
+=======
+}
+>>>>>>> GitHub
+}
+
+<<<<<<< Codesandbox
+introduction {
+  padding: 2rem;
+>>>>>>> GitHub
+}
+
+<<<<<<< Codesandbox
+.card h3 {
+  font-size: 2rem;
+  font-size: 5rem;
+  border-bottom: .5rem groove #0ff999;
+  padding: .5rem;
+  margin: 0;
+  text-align: center;
+  box-shadow: 0 0 #000;
+}
+
+.projectInfoBlock {
+  text-align: center;
+  height: 5rem;
+  display: flex;
+}
+.projectInfoBlock a {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  text-decoration: none;
+  width: -webkit-fill-available;
+  border-radius: 8px;
+  padding: .5rem;
+  margin-top: 1rem;
+  color: #faebd7;
+  text-shadow: 2px 0 0.1px #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+=======
+.headerImg {
+  width: 35%;
+  border: solid orange;
+}
+
+img {
+  max-width: -webkit-fill-available;
+  width: 100%;
+  border-bottom: aqua 1rem solid;
+=======
+.projectInfoBlock a {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  text-decoration: none;
+  width: -webkit-fill-available;
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  color: antiquewhite;
+  text-shadow: 2px 0px 0.1px black;
+}
+.projectInfoBlock a:first-child {
+  border-right: #0ff999 solid 1.5px;
+  box-shadow: 0.1px 0.2px 2px 1.1px #023;
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 1.1px #000, -0.9px -0.9px 1.1px #f9f9f9;
+  color: #0ff;
+}
+
+.projectInfoBlock a:first-child:hover {
+  text-shadow: 0.7px 0.7px 1px white, -0.7px -0.7px 1px black,
+    2px 2px 10px white;
+  box-shadow: inset 0px 0px 4px 1px black, inset 0px 6px 7px 0px darkcyan;
+}
+
+.projectInfoBlock a:nth-child(2) {
+  border-left: #09a565 solid 3px;
+  color: #0ff;
+  box-shadow: inset 0px 0px 7px 0px black, 0.1px 0.2px 2px 1.1px #023;
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 1.1px #000, -0.9px -0.9px 1.1px #f9f9f9;
+}
+.projectInfoBlock a:nth-child(2):hover {
+  text-shadow: 0.7px 0.7px 1px white, -0.7px -0.7px 1px black,
+    2px 2px 10px white;
+  box-shadow: inset 0px 0px 4px 1px black, inset 0px 6px 7px 0px darkcyan;
+}
+
+#contact form input {
+  width: 40%;
+  margin: 1rem;
+  border: solid rebeccapurple 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 black;
+>>>>>>> GitHub
+  box-shadow: 0 4px 6px 0;
+}
+<<<<<<< Codesandbox
+
+section#skills {
+  width: 100%;
+  border-bottom: aqua 2rem solid;
+  font-size: 3rem;
+  font-weight: 600;
+  text-shadow: 0px 3px 1px #8da0c1;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+main {
+  display: block;
+}
+
+div#navspacing {
+  height: 12rem;
+>>>>>>> GitHub
+  border: 1rem solid blue;
+}
+<<<<<<< Codesandbox
+.projectInfoBlock a:first-child {
+  border-right: #0ff999 solid 1.5px;
+  border-left: #09a565 solid 1px;
+  box-shadow: inset 0 0 7px 0 #000, 0.1px 0.2px 2px 1.1px #023;
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 1.1px #000, -0.9px -0.9px 1.1px #f9f9f9;
+  color: #0ff;
+  transition: text-shadow 250ms ease,transform 1s ease;
+}
+.projectInfoBlock a:first-child:hover {
+  text-shadow: 0.7px 0.7px 1px #fff, -0.7px -0.7px 1px #000, 2px 2px 10px #fff;
+  box-shadow: inset 0 0 4px 1px #000, inset 0 6px 7px 0 #008b8b;
+}
+.projectInfoBlock a:nth-child(2) {
+  border-right: #0ff999 solid 1.5px;
+  border-left: #09a565 solid 1px;
+  color: #0ff;
+  box-shadow: inset 0 0 7px 0 #000, 0.1px 0.2px 2px 1.1px #023;
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 1.1px #000, -0.9px -0.9px 1.1px #f9f9f9;
+=======
+#contact form textarea {
+  width: 80vw;
+  max-width: 600px;
+  margin: 1rem;
+  border: solid rebeccapurple 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 black;
+}
+#contact form {
+  display: flex;
+  width: 100%;
+  color: whitesmoke;
+  background: repeating-radial-gradient(
+    circle at 4.2% 9%,
+    red,
+    orange 16.18px,
+    yellow 26.179px,
+    limegreen 42.359px,
+    royalblue 71.162px,
+    indigo 115.141px,
+    violet 186.299px,
+    red 301.432px
+  );
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  border: solid rebeccapurple 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 black;
+  text-shadow: 0 3px 1px hsl(275, 100%, 22%);
+  color: hsl(275, 100%, 92%);
+}
+button {
+  border-radius: 3px;
+  box-shadow: 3px 2px 2px 0px black;
+  color: purple;
+  background: white;
+  text-shadow: 0.5px 0.5px 0px black, 1.75px 1.75px 1px white,
+    2px 3px 1px purple;
+  font-size: 3rem;
+  cursor: pointer;
+>>>>>>> GitHub
+}
+
+<<<<<<< Codesandbox
+.projectInfoBlock a:nth-child(2):hover {
+  text-shadow: 0.7px 0.7px 1px #fff, -0.7px -0.7px 1px #000, 2px 2px 10px #fff;
+  box-shadow: inset 0 0 4px 1px #000, inset 0 6px 7px 0 #008b8b;
+}
+
+#contact form {
+  display: flex;
+  width: 100%;
+  color: #f5f5f5;
+  background: repeating-radial-gradient(circle at 4.2% 9%,red,orange 16.18px,#ff0 26.179px,#32cd32 42.359px,#4169e1 71.162px,indigo 115.141px,violet 186.299px,red 301.432px);
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  border: solid #639 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 #000;
+  text-shadow: 0 3px 1px #410070;
+  color: #edd6fe;
+=======
+
+section#projects {
+  width: 100%;
+=======
+button:hover {
+  background: purple;
+  color: white;
+  box-shadow: 0px 4px 2px 0.1px black;
+  text-shadow: 1px 3px 0px black;
+  font-size: 3rem;
+}
+button:active {
+  background: rebeccapurple;
+  color: black;
+  box-shadow: 1px 1px 1px 1px black;
+  text-shadow: 0px 3px 0px white;
+  font-size: 3rem;
+}
+button:active {
+  background: rebeccapurple;
+  color: white;
+  box-shadow: 0px 4px 2px 0.1px black;
+  text-shadow: -1.5px -2px 0px black, 1px 2px 4px black;
+  font-size: 3rem;
+}
+
+>>>>>>> GitHub
+.submit-captchaBox {
+  display: flex;
+<<<<<<< Codesandbox
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  /* height: -webkit-fill-available; */
+  border: 0.5rem #0ff999 groove;
+  border-radius: 1%;
+  background: #0ff;
+  color: #00ffffeb;
+  text-shadow: 1px 1px 0.1px #000, -1px -1px 0.1px white;
+  flex-direction: column;
+  font-weight: bold;
+  max-width: 64%;
+  max-height: 550px;
+=======
+}
+.inputToggleBox {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  margin: 5rem;
+  border: 0.1rem outset purple;
+  border-radius: 15px;
+}
+.inputToggle {
+  display: block;
+  width: 300px;
+  height: 100px;
+  padding: 1rem;
+  margin: 5rem;
+  border: 1rem outset purple;
+  border-radius: 15px;
+>>>>>>> GitHub
+  height: auto;
+}
+<<<<<<< Codesandbox
+
+.card img {
+  border-bottom: white 0.8rem groove;
+  border-radius: 5px;
+  box-shadow: none;
+  text-align: center;
+  width: -webkit-fill-available;
+  height: 400px;
+=======
+.inputToggle--knob {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 3px solid pink;
+  border-radius: 50px;
+  position: relative;
+  left: 70%;
+>>>>>>> GitHub
+}
+
+.card h3 {
+  font-size: 5rem;
+  border-bottom: 0.5rem groove #0ff999;
+  padding: 0.5rem;
+  margin: 0;
+  text-align: center;
+>>>>>>> GitHub
+  box-shadow: 0 0 black;
+}
+
+<<<<<<< Codesandbox
+#contact form input {
+  width: 40%;
+  margin: 1rem;
+  border: solid #639 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 #000;
+}
+#contact form textarea {
+  width: 80vw;
+  max-width: 600px;
+  margin: 1rem;
+  border: solid #639 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 #000;
+}
+.inputToggleBox {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  margin: 5rem;
+  border: .1rem outset purple;
+  border-radius: 15px;
+=======
+.projectInfoBlock {
+  text-align: center;
+  height: 5rem;
+  display: flex;
+}
+
+.projectInfoBlock a {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  text-decoration: none;
+  width: -webkit-fill-available;
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  color: antiquewhite;
+  text-shadow: 2px 0px 0.1px black;
+}
+.projectInfoBlock a:first-child {
+  border-right: #0ff999 solid 1.5px;
+  box-shadow: 0.1px 0.2px 2px 1.1px #023;
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 1.1px #000, -0.9px -0.9px 1.1px #f9f9f9;
+  color: #0ff;
+>>>>>>> GitHub
+}
+
+<<<<<<< Codesandbox
+.inputToggle {
+  display: block;
+  width: 300px;
+  height: 100px;
+  padding: 1rem;
+  margin: 5rem;
+  border: 1rem outset purple;
+  border-radius: 15px;
+}
+.inputToggle--knob {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 3px solid pink;
+  border-radius: 50px;
+  position: relative;
+  left: 70%;
+=======
+.projectInfoBlock a:first-child:hover {
+  text-shadow: 0.7px 0.7px 1px white, -0.7px -0.7px 1px black,
+    2px 2px 10px white;
+  box-shadow: inset 0px 0px 4px 1px black, inset 0px 6px 7px 0px darkcyan;
+}
+
+.projectInfoBlock a:nth-child(2) {
+  border-left: #09a565 solid 3px;
+  color: #0ff;
+  box-shadow: inset 0px 0px 7px 0px black, 0.1px 0.2px 2px 1.1px #023;
+  font-weight: 500;
+  text-shadow: 0.5px 0.5px 1.1px #000, -0.9px -0.9px 1.1px #f9f9f9;
+}
+.projectInfoBlock a:nth-child(2):hover {
+  text-shadow: 0.7px 0.7px 1px white, -0.7px -0.7px 1px black,
+    2px 2px 10px white;
+  box-shadow: inset 0px 0px 4px 1px black, inset 0px 6px 7px 0px darkcyan;
+>>>>>>> GitHub
+}
+<<<<<<< Codesandbox
+select {
+  writing-mode: horizontal-tb;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: menulist;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  cursor: default;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  border-radius: 0px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+  border-image: initial;
+} 
+
+nav a:hover {
+  text-shadow: 0.7px 0.7px 1px #fff, -0.7px -0.7px 1px #000, 2px 2px 10px #fff;
+  box-shadow: inset 0 0 4px 1px #000, inset 0 6px 7px 0 #008b8b;
+}
+
+nav a:active {
+  text-shadow: 0.7px 0.7px 1px #fff, -0.7px -0.7px 1px #000, 2px 2px 10px #fff;
+  box-shadow: inset 0 0 4px 1px #000, inset 0 6px 7px 0 #008b8b;
+}
+=======
+
+#contact form input {
+  width: 40%;
+  margin: 1rem;
+  border: solid rebeccapurple 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 black;
+}
+#contact form textarea {
+  width: 80vw;
+  max-width: 600px;
+  margin: 1rem;
+  border: solid rebeccapurple 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 black;
+}
+#contact form {
+  display: flex;
+  width: 100%;
+  color: whitesmoke;
+  background: repeating-radial-gradient(
+    circle at 4.2% 9%,
+    red,
+    orange 16.18px,
+    yellow 26.179px,
+    limegreen 42.359px,
+    royalblue 71.162px,
+    indigo 115.141px,
+    violet 186.299px,
+    red 301.432px
+  );
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  border: solid rebeccapurple 5px;
+>>>>>>> GitHub
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 black;
+  text-shadow: 0 3px 1px hsl(275, 100%, 22%);
+  color: hsl(275, 100%, 92%);
+}
+button {
+  border-radius: 3px;
+  box-shadow: 3px 2px 2px 0px black;
+  color: purple;
+  background: white;
+  text-shadow: 0.5px 0.5px 0px black, 1.75px 1.75px 1px white,
+    2px 3px 1px purple;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: purple;
+  color: white;
+  box-shadow: 0px 4px 2px 0.1px black;
+  text-shadow: 1px 3px 0px black;
+  font-size: 3rem;
+}
+button:active {
+  background: rebeccapurple;
+  color: black;
+  box-shadow: 1px 1px 1px 1px black;
+  text-shadow: 0px 3px 0px white;
+  font-size: 3rem;
+}
+button:active {
+  background: rebeccapurple;
+  color: white;
+  box-shadow: 0px 4px 2px 0.1px black;
+  text-shadow: -1.5px -2px 0px black, 1px 2px 4px black;
+  font-size: 3rem;
+}
+
+.submit-captchaBox {
+  display: flex;
+}
+.inputToggleBox {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  margin: 5rem;
+  border: 0.1rem outset purple;
+  border-radius: 15px;
+}
+.inputToggle {
+  display: block;
+  width: 300px;
+  height: 100px;
+  padding: 1rem;
+  margin: 5rem;
+  border: 1rem outset purple;
+  border-radius: 15px;
+}
+.inputToggle--knob {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 3px solid pink;

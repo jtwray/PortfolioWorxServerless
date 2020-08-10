@@ -1,0 +1,26 @@
+{
+  "name": "tuckers-simple-singlepage-portfolio-about-skills-projects-contact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "nodemonstart": "nodemon",
+    "bundle": "cpx src/**/* functions/bundle"
+  },
+  "dependencies": {
+    "apollo-server": "2.16.1",
+    "apollo-server-lambda": "2.16.1",
+    "dot-env": "0.0.1",
+    "jquery": "3.5.1",
+    "netlify-lambda": "2.0.1",
+    "node-fetch": "2.6.0",
+    "nodemon": "2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
